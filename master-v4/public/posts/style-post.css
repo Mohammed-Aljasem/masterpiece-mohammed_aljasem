@@ -40,15 +40,7 @@ flex-direction: column;
 position: relative;
 
 }
-.post__sub-container-two{
-width: 250px;
-height: 100%;
-border-radius:0 1.2rem 1.2rem 0;
-background-color: var( --font-background);
-box-shadow: 
-5px 5px 30px   var(--shadow-color),
--5px -5px 30px   var(--shadow-color);
-}
+
 .post__sub-container-two{
   width: 240px;
   height: 96%;
@@ -173,7 +165,9 @@ border-radius: 10px;
   box-shadow: 
   5px 5px 30px   var(--shadow-color),
   -5px -5px 30px   var(--shadow-color);
+  border: 1px solid var( --font-color-border);
 cursor: pointer;
+margin: 0 0.1rem;
 }
 .post__avatar{
 width: 60px;

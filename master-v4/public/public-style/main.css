@@ -46,6 +46,10 @@ label{
   color: var(--font-color-titles);
   text-decoration: none;
 }
+button{
+  color: var(--font-color-titles);
+  text-decoration: none;
+}
 span{
   color: var(--font-color-spans);
 }

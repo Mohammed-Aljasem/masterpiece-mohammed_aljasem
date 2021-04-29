@@ -79,7 +79,8 @@
                                                     @endif
                                                 </div>
                                                 <div class="post__date">
-                                                    <h5>{{ $post->created_at }}</h5>
+                                                    <h5>{{ \Carbon\Carbon::parse($post->created_at)->format('d-m-Y') }}
+                                                    </h5>
                                                 </div>
                                             </div>
                                         </div>

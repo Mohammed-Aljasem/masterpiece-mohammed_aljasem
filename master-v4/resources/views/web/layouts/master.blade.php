@@ -17,9 +17,8 @@
             <div class="nav__links">
                 <a href="{{ url('/') }}" class="social__icons "><i class="fas fa-home"></i></a>
                 <a href="{{ url('/agreements') }}" class="social__icons"><i class="fas fa-chart-line"></i></a>
-                <a href="{{ url('/agreements') }}" class="social__icons"><i class="fas fa-chart-line"></i></a>
-                <a href="{{ url('/manage_posts') }}" class="social__icons active_link"><i
-                        class="far fa-comment-alt"></i></a>
+                <a href="{{ url('/manage_posts') }}" class="social__icons"><i class="fas fa-chart-line"></i></a>
+                <a href="{{ url('/chat') }}" class="social__icons active_link"><i class="far fa-comment-alt"></i></a>
                 <a href="{{ url('/post') }}" class="social__icons"><i class="far fa-compass"></i></a>
                 <a href="{{ url('/profile') }}" class="social__icons"><i class="fas fa-user"></i></a>
             </div>
